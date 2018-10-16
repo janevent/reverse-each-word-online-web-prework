@@ -10,7 +10,7 @@ end
 
 def reverse_each_word(string)
   ar = string.split(' ')
-  ar.each do |word|
+  ar.collect do |word|
     word.reverse!
   end
 end
